@@ -2090,7 +2090,9 @@ input, select, textarea {
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 100%;
+		width: 50%;
+		margin: 0,0,0,0;
+
 	}
 
 		input[type="text"]:invalid,
@@ -2141,6 +2143,10 @@ input, select, textarea {
 
 	textarea {
 		padding: 0.75em 1em;
+		justify-content: center;
+	}
+	.fields {
+		justify-content: center;
 	}
 
 	input[type="checkbox"],
