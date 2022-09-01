@@ -79,7 +79,7 @@ input, select, textarea {
 	}
 
 	*, *:before, *:after {
-		/* box-sizing: inherit; */
+		box-sizing: inherit; 
 	}
 
 	body {
@@ -306,7 +306,7 @@ input, select, textarea {
 		}
 
 		.row.gtr-uniform > * > :last-child {
-			/* margin-bottom: 0; */
+			margin-bottom: 0; 
 		}
 
 		.row.aln-left {
@@ -362,7 +362,9 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			justify-content: center;
+			margin-left: 3rem;
+			width: 90%;
 		}
 
 		.row > .off-4 {
@@ -527,7 +529,7 @@ input, select, textarea {
 
 		.row.gtr-150 {
 			margin-top: 0;
-			margin-left: -3em;
+			margin-left: 0;
 		}
 
 			.row.gtr-150 > * {
@@ -573,7 +575,7 @@ input, select, textarea {
 				}
 
 				.row.gtr-uniform > * > :last-child {
-					/* margin-bottom: 0; */
+					 margin-bottom: 0;
 				}
 
 				.row.aln-left {
@@ -771,7 +773,8 @@ input, select, textarea {
 
 				.row.gtr-150 {
 					margin-top: 0;
-					margin-left: -3em;
+					margin-left: 0;
+					width: 100%;
 				}
 
 					.row.gtr-150 > * {
@@ -779,7 +782,7 @@ input, select, textarea {
 					}
 
 					.row.gtr-150.gtr-uniform {
-						margin-top: -3em;
+						margin-top: 0;
 					}
 
 						.row.gtr-150.gtr-uniform > * {
@@ -1184,7 +1187,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-medium {
-					width: 100%;
+					width: 80%;
 				}
 
 				.row > .off-12-medium {
